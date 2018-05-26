@@ -1,0 +1,15 @@
+INPUT(
+./release\blasterbolt.o
+./release\enemyone.o
+./release\game.o
+./release\gameobject.o
+./release\level.o
+./release\main.o
+./release\mainmenu.o
+./release\ship.o
+./release\spacegame.o
+./release\timing.o
+./release\moc_game.o
+./release\moc_mainmenu.o
+./release\moc_spacegame.o
+);

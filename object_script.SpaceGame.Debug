@@ -1,0 +1,15 @@
+INPUT(
+./debug\blasterbolt.o
+./debug\enemyone.o
+./debug\game.o
+./debug\gameobject.o
+./debug\level.o
+./debug\main.o
+./debug\mainmenu.o
+./debug\ship.o
+./debug\spacegame.o
+./debug\timing.o
+./debug\moc_game.o
+./debug\moc_mainmenu.o
+./debug\moc_spacegame.o
+);
