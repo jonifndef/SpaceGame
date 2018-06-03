@@ -12,6 +12,7 @@ class MainMenu : public QMainWindow
 {
     Q_OBJECT
 public:
+    MainMenu();
     MainMenu(QMainWindow *context);
     ~MainMenu();
 

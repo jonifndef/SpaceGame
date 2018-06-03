@@ -52,8 +52,8 @@ private:
     //Ship m_ship;
     //Blasterbolt *m_enemyBlasterBolt;
     //Blasterbolt *m_shipBlasterBolt;
-    MainMenu *m_menu;
-    Game *m_game;
+    MainMenu m_menu;
+    Game m_game;
 
     //int m_readyToSpawnEnemyCnt;
     //int m_readyToFireCnt;

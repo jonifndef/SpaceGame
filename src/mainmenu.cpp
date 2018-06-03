@@ -1,5 +1,10 @@
 #include "mainmenu.h"
 
+MainMenu::MainMenu()
+{
+
+}
+
 MainMenu::MainMenu(QMainWindow *context)
 {
     if (!m_background.load("res/spacegame_background.png"))

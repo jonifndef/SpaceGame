@@ -12,7 +12,7 @@ SpaceGame::SpaceGame(QMainWindow *parent) :
     //m_readyToFireCnt = 5;
     //m_level = new Level(0, 0);
 
-    m_game = new Game();
+    //m_game = new Game();
 
     //m_timer for updating the game and all objects in it
     m_timer = new QTimer(this);
@@ -52,10 +52,10 @@ void SpaceGame::paintEvent(QPaintEvent *paintEvent)
     switch (m_gameState)
     {
         case MAIN_MENU:
-            m_menu->paint(painter);
+            m_menu.paint(painter);
             break;
         case PLAYING:
-            m_game->paint(painter);
+            m_game.paint(painter);
             break;
         case PAUSED:
             /*m_level->paint(painter);
@@ -89,14 +89,14 @@ void SpaceGame::keyPressEvent(QKeyEvent *event)
 
 void SpaceGame::update()
 {
-    m_game->update();
+    m_game.update();
 
     repaint();
 }
 
 void SpaceGame::testSlot()
 {
-    m_game->flowTimerOverflow();
+    m_game.flowTimerOverflow();
 }
 
 void SpaceGame::mainMenu()
